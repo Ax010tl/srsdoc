@@ -45,8 +45,6 @@ El producto que desarrollamos es un videojuego, el cual se compone de una serie 
 
 - __Administrador de datos__: Tendrá acceso a todos los datos estadísticos de los jugadores, con el fin de recabar información y tomar decisiones acertadas. Necesita acceso a los datos recopilados de los jugadores, al igual que gráficos que representen dichos datos y estadísticas.
 
-- __Administrador de juego__: Se encargará del funcionamiento adecuado del juego, así como de todos los sistemas de comunicación e información. Necesita datos de estatus de la base de datos, así como de la integridad de la información y los usuarios registrados. 
-
 ## Suposiciones y Dependencias
 <!-- There might be factors that impact your ability to fulfill the requirements outlined in this document. What are those factors? -->
 Algunos factores que puedan impactar nuestra habilidad para cumplir con los requerimientos enumerados en este documento incluyen:
@@ -87,7 +85,6 @@ Include user stories, which are short descriptions of a feature, told from the p
 |__Recopilación de datos__|_Como **administrador de datos**, requiero que el software recopile datos para poder acceder a ellos de una manera clara y concisa_|_Prioridad: 2_| La visualización de datos puede ser por medio de un dashboard |
 |__Información STEM__|_Como **jugador**, requiero aprender sobre las posibilidades de las carreras STEM para poder tomar una decisión vocacional informada_|_Prioridad: 3_|
 |__Progreso del juego__|_Como **jugador**, requiero conocer el progreso que llevo en el juego (vidas, puntuación, nivel) para tener una experiencia más gratificante usando el software_|_Prioridad: 3_|
-|__Estatus del juego__|_Como **administrador de juego**, requiero que el software tenga forma de indicar su estatus (activo, con fallas, etc) con el fin de dar mantenimiento_|_Prioridad: 3_|
 
 ## Requerimientos de Interfaz Externa
 <!-- External interface requirements are types of functional requirements. They outline how your product will interface with other components or systems. -->
@@ -100,13 +97,13 @@ De los requerimientos anteriormente enumerados, puede identificarse que será ne
 
 ## Requerimientos No Funcionales
 <!-- Non-functional requirements are restrictions on the system or the development process. Non-functional requirements can be more critical than functional ones. If they are not met, the system is useless! -->
-- Aviso de privacidad
+<!-- - Aviso de privacidad -->
 - Clasificación E (contenido apto para todas las edades)
 - Todos los componentes deben tener un estilo artístico unificado
 - La partida promedio por usuario no debe exceder los 10 minutos
 - Ejecución en sistemas con bajos recursos como laptops o tabletas mediante un navegador
 - Entregar software terminado a finales de abril
-- Usar una metodología SCRUM
+- Usar una metodología ágil
 - Se respectará la propiedad intelectual de todo en este mundo :D
 
 # Pantallas
@@ -140,8 +137,8 @@ Se incluirán diversas pantallas para el proyecto, como:
     - Nivel de escolaridad
     - Distribución de edades
     - Interés en área de STEM por género
-    - Estado/región y cuál tiene más interés en cierta área
     - Distribución de nivel de escolaridad de cada género
+    - Mapa con distribución de género
 
   ![](screenshots/indicadores.png)
   ![](screenshots/indicadores2.png)
