@@ -51,7 +51,7 @@ Uno de los mayores logros de la humanidad ha sido llegar al espacio. En este jue
 En cada nivel se variará la fuerza de gravedad, y se incluirán obstáculos con el fin de que el jugador use pensamiento crítico y análisis para resolver la problemática.  
 
 ## Mentalidad
-        El propósito del juego es generar interés en las ciencias, especialmente cuando están siendo aplicadas al viaje interestelar. Para esto, se tiene que estar en un estado calmado y enfocado. Al ir viviendo la dinámica del juego el jugador se sentirá inspirado con las posibilidades que abre la ciencia, con ganas de avanzar al siguiente nivel para descubrir nuevos retos y soluciones a distintos problemas. Esto se va a lograr con gráficos que llaman la atención y con niveles que van cambiando poco a poco. Estos cambios constantes, junto con pequeñas piezas de información en cada nivel, van atrapando la atención del jugador y le informan sobre las aplicaciones de diferentes ramas de la ciencia.
+        El propósito del juego es generar interés en las ciencias, especialmente cuando están siendo aplicadas al viaje interestelar. Para esto, se tiene que estar en un estado calmado y enfocado.<br> Al ir viviendo la dinámica del juego el usuario se sentirá inspirado con las posibilidades que abre la ciencia, con ganas de avanzar al siguiente nivel para descubrir nuevos retos y soluciones a distintos problemas. Esto se va a lograr con gráficos que llaman la atención y con niveles que van cambiando poco a poco. <br>Estos cambios constantes, junto con pequeñas piezas de información en cada nivel, van atrapando la atención del jugador y le informan sobre las aplicaciones de diferentes ramas de la ciencia.
 
 ## Historia
 El juego se trata de un astronauta que viene de una realidad alterna, en la cual la humanidad ya no puede vivir en la Tierra. Debe de ir buscando planetas habitables, orbitándolos para encontrar un nuevo hogar.
@@ -66,7 +66,7 @@ Según va avanzando en su viaje, descubre cosas nuevas sobre las ciencias, el es
 3.  Juego: Cada nivel incluye un planeta, una nave y se añadirán powerups y obstáculos. 
 4.  Desafío de poner un objeto en órbita: Se mostrarán los controles para interactuar, así como los planetas y objetos. Igualmente se mostrarán las vidas disponibles y la puntuación.
 5.  Datos relevantes de una carrera STEM: Con botones para saber si le interesó al jugador.
-6.  Pantalla Final: Muestra el puntaje del jugador y un botón para volver a jugar.
+6.  Pantalla Final: Muestra el puntaje del jugador y un botón para volver a jugar o regresar al menú.
 
 ## Controles
 
@@ -85,14 +85,14 @@ Física:
 
 Reglas:
 
--   El jugador podrá intentar poner la nave en órbita, siempr ey cuando tenga vidas.
+-   El jugador podrá intentar poner la nave en órbita, siempre y cuando tenga vidas.
 -   Se puede ajustar el ángulo de lanzamiento y la propulsión inicial.
 -   Con cada nivel varía la gravedad de cada planeta.
 -   Si no se logra poner la nave en órbita, esta choca contra el planeta o se va a la lejanía.
 -   La cantidad de puntos otorgados dependen de haber puesto la nave en órbita, de haber obtenido _power-ups_ y de no haber colisionado con obstáculos. 
 -   Existen _power-ups_, los cuales están relacionados con avances STEM y le dan al jugador puntos extra.
 
-![](pantallas/dinamica.png?AAAA)
+
 
 # Diseño de niveles
 ## Temas
@@ -252,10 +252,10 @@ Queremos incluir música de fondo inspirándonos en el soundtrack de Interstell
 1.  ✅ Definir idea del videojuego
 2.  ✅ Establecer la dinámica y mecánica
 3.  ✅ Elaborar ilustraciones
-4.  ⌛ Programar el videojuego
-    - ⌛ Realizar scripts con parámetros físicos
-    - ⌛ Incorporar interacciones entre objetos
-    - ⌛ Incorporar interacción con el usuario
+4.  ✅ Programar el videojuego
+    - ✅ Realizar scripts con parámetros físicos
+    - ✅ Incorporar interacciones entre objetos
+    - ✅ Incorporar interacción con el usuario
 5.  ✅ Investigar y agregar datos curiosos
     - ✅ Realizar script para leer los datos y mostrar durante el juego
 6.  ✅ Realizar conexión con la base de datos
